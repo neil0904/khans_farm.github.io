@@ -1,0 +1,130 @@
+
+@media (max-width: 820px) {
+    nav{
+       
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+    nav .logo{
+        width: 25%;
+        text-align: center;
+        font-size: 8px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+    nav .menu{
+       
+        font-size: 10px;
+    }
+    main{
+        padding-left: 10px;
+        height: 85vh;
+        font-weight: 180;
+    }
+    section h1{
+
+        font-size: 30px;
+    }
+    section h3{
+        font-size: 28px;
+    
+    }
+    p{
+        font-size: 25px;
+        font-weight: normal;
+    
+    }
+    
+    .card{
+        margin: 25px;
+        padding: 25px;
+    }
+    .contact img{
+        border-radius: 8px;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+    }
+    .contact{
+        font-size: 30px;
+        color: whitesmoke;
+        text-align: center;
+        padding: 5px 10px;
+    
+    }
+}
+@media (max-width: 601px){
+ 
+    nav .logo{
+        font-size: 8px;
+        margin-right: 6px;
+    }
+    nav .menu{
+        margin-left: 6px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: normal;
+    
+    }
+    
+    .card{
+        margin: 15px;
+        padding: 15px;
+    }
+    .contact img{
+        height: 30vh;
+        width: 80%;
+    }
+    .contact{
+        font-size: 25px;
+    
+    }
+    .contact p .cont{
+        margin: 0 5px;
+    
+    }
+
+}
+
+@media (max-width: 400px){
+    nav .logo{
+        margin-right: 4px;
+    }
+    nav .menu{
+    
+        text-align: left;
+        font-size: 8px;
+    }
+    main{
+        text-align: center;
+    }
+
+    section h1{
+
+        font-size: 20px;
+    }
+    section h3{
+        font-size: 18px;
+    
+    }
+    p{
+        font-size: 15px;
+    
+    }
+    section .button{
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+ 
+}
+
+@media (max-width: 312px){
+
+    nav .menu{
+
+        font-size: 6px;
+    }
